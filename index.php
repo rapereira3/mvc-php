@@ -1,12 +1,14 @@
-<?php
+﻿<?php
 /**
  * Este arquivo não faz nada, apenas inclui os arquivos necessários
 @lang text
  */
 
+
 echo "<!DOCTYPE html>
 <html lang=\"pt_BR\">
   <header>
+
 
   </header>
 </html>";

@@ -1,5 +1,6 @@
 <?php if ( ! defined('ABSPATH')) exit; ?>
 
+
 <!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" lang="pt-BR">
@@ -11,6 +12,7 @@
 <html lang="pt-BR">
 <!--<![endif]-->
 
+<html lang=\"pt_BR\">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,5 +27,10 @@
 	<title><?php echo $this->title; ?></title>
 </head>
 <body>
+<div class="topo">
+	<img id="logo-principal" src="<?php
+	echo HOME_URI . '/views/_images/' . 'logo-principal.jpg'; ?>">
+</div>
+</body>
 
 <div class="main-page">
